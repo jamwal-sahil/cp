@@ -7,7 +7,7 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		int n,m,k;
+		int n,m,k; /*initializing variables*/ 
 		cin>>n>>m;
 		vector<int> cook,assistant,finished(n+1,0);
 		while(m--)

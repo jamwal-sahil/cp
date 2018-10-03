@@ -3,17 +3,17 @@ using namespace std;
 int factorial(int n)
 {
 	int fact=1;
-	for(int i = 1; i <=n; ++i)
+	for(int counter = 1; counter <=n; ++counter)
     {
-        fact *= i;
+        fact *= counter;
     }
 	return fact;
 }
 int main()
 {
-	int n,z;
-	cin>>n;
-	int m=factorial(n);
-	cout<<m;
+	int number;
+	cin>>number;
+	int answer=factorial(number);
+	cout<<answer;
 
 }

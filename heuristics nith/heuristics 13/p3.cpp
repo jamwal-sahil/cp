@@ -6,7 +6,7 @@ int main()
 	cin>>n;
 	std::vector<int> v;
 	int t;
-	for(int i=0;i<n;i++)
+	for(int i=0 ;i<n ;i++)
 	{
 		cin>>t;
 		v.push_back(t);
